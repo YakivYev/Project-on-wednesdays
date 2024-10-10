@@ -3,7 +3,7 @@ import tkinter as tk
 class ClickCounter:
     def __init__(self, master):
         self.master = master
-        self.master.title("Click Counter")
+        self.master.title("Hitter Countah")
 
         self.count = 0
         self.label = tk.Label(master, text="Count: 0", font=("Helvetica", 16))
